@@ -9,8 +9,8 @@ jobs:
   test:
     env:
       MONGODB_CLUSTER_ADDRESS: cluster0.ri0run9.mongodb.net
-      MONGODB_USERNAME: lmbteste
-      MONGODB_PASSWORD: Lvus5471
+      MONGODB_USERNAME: teste-gh-actions
+      MONGODB_PASSWORD: kaGY4ipmkivYufT
       PORT: 8080
     #environment: testing
     runs-on: ubuntu-latest
