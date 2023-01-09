@@ -8,10 +8,10 @@ on:
 jobs:
   test:
     env:
-      MONGODB_CLUSTER_ADDRESS: lmb-teste.cluster-c1d7ry3zwtuh.us-east-1.docdb.amazonaws.com
+      MONGODB_CLUSTER_ADDRESS: cluster0.ri0run9.mongodb.net
       MONGODB_USERNAME: lmbteste
       MONGODB_PASSWORD: Lvus5471
-      PORT: 27017
+      PORT: 8080
     #environment: testing
     runs-on: ubuntu-latest
     steps:
