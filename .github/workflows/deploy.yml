@@ -8,7 +8,7 @@ on:
 jobs:
   test:
     env:
-      MONGODB_CLUSTER_ADDRESS: cluster0.ri0run9.mongodb.net
+      MONGODB_CLUSTER_ADDRESS: cluster0.qfuz5bw.mongodb.net
       MONGODB_USERNAME: teste-gh-actions
       MONGODB_PASSWORD: kaGY4ipmkivYufT
       PORT: 8080
